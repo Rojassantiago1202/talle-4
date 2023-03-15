@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo formulario #1</title>
+    <link rel="stylesheet" href="../CSS/Detalles.css">
+</head>
+<body>
+
+<h1>Zoo Keeper Application Form</h1>
+<em>Please complete the from. Mandatory fields are marked with a <span>*</span></em><br><br>
+
+<fieldset>
+
+    <legend><strong>CONTACT DETAILS</strong></legend>
+
+
+    Name <span>*</span> &nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" pattern="[A-Za-z]" max="60" size="30"><br><br>
+
+    Telephone &nbsp;    
+    <input type="number" size="30"><br><br>
+
+    Email <span>*</span> &nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="email" max="30" size="30"><br><br>
+
+
+
+</fieldset><br>
+
+<fieldset>
+
+    <legend><strong>PERSONAL INFORMATION</strong></legend>
+
+    <span>*</span>Age &nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="number" min="18"  size="30"><br><br>
+
+    Gender &nbsp;&nbsp;
+    <datalist id="Lista">
+        <option value="Male"></option>
+        <option value="Female"></option>
+        
+    </datalist>
+
+    <input type="text" list="Lista" placeholder="Female"><br><br>
+
+    When did you <br>
+    first know you <br>
+    wanted to be a <br>
+    zoo-keeper? <br><br>
+
+    <textarea cols="30" rows="10"></textarea>
+
+
+
+</fieldset><br>
+
+<fieldset>
+
+    <legend><strong>PICK YOUR FAVORITE ANIMALS</strong></legend>
+
+    <div>
+
+        <input type="checkbox" value="Zebra">Zebra &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" value="Cat">Cat &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" value="Anaconda">Anaconda
+        <input type="checkbox" value="Human">Human <br><br>
+        <input type="checkbox" value="Elephant">Elephant
+        <input type="checkbox" value="Wildebeest">Wildebeest
+        <input type="checkbox" value="Pigeon">Pigeon &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" value="Crab">Crab
+
+
+    </div>
+
+
+
+</fieldset><br>
+
+<button>Submit Application</button>
+    
+</body>
+</html>

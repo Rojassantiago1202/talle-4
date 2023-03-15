@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Formulario #2</title>
+    <link rel="stylesheet" href="../CSS/Detalle2.css">
+</head>
+<body>
+
+    <h1><u>STUDENT REGISTRATION FORM</u></h1>
+
+    <fieldset id="Color">
+
+        <span>FIRST NAME</span> &nbsp;&nbsp;
+        <input type="text" pattern="[a-zA-Z]" max="30" size="30"><br><br>
+
+        <span>LAST NAME</span> &nbsp;&nbsp;
+        <input type="text" pattern="[a-zA-Z]" max="30" size="30"><br><br>
+
+        <span>DATE OF BIRTH</span> &nbsp;&nbsp;
+        <datalist id="Lista"> 
+            <option value="1"></option>
+            <option value="2"></option>
+            <option value="3"></option>
+            <option value="4"></option>
+        </datalist>
+    
+        <input type="text" list="Lista" placeholder="Day:" size="3">
+
+        <datalist id="Lista2"> 
+            <option value="Enero"></option>
+            <option value="Febrero"></option>
+            <option value="Marzo"></option>
+            <option value="Abril"></option>
+        </datalist>
+    
+        <input type="text" list="Lista2" placeholder="Month:" size="5">
+
+        <datalist id="Lista3">
+            <option value="2018"></option>
+            <option value="2019"></option>
+            <option value="2020"></option>
+            <option value="2021"></option>
+        </datalist>
+    
+        <input type="text" list="Lista3" placeholder="Year:" size="4"><br><br>
+
+        <span>EMAIL ID</span> &nbsp;&nbsp;
+        <input type="email" size="30"><br><br>
+
+        <span>MOBILE NUMBER</span> &nbsp;&nbsp;
+        <input type="number" max="9999999999" size="30"><br><br>
+
+        <span>GENDER</span> &nbsp;&nbsp;
+        <span>Male</span><input type="radio">
+        <span>Female</span><input type="radio"><br><br>
+
+        <span>ADDRESS</span> &nbsp;&nbsp;
+        <textarea cols="40" rows="5"></textarea><br><br>
+
+        <span>CITY</span> &nbsp;&nbsp;
+        <input type="text" pattern="[a-zA-Z]" max="30" size="30"><br><br>
+
+        <span>PIN CODE</span> &nbsp;&nbsp;
+        <input type="number" max="999999" size="30"><br><br>
+
+        <span>STATE</span> &nbsp;&nbsp;
+        <input type="text" pattern="[a-zA-Z]" max="30" size="30"><br><br>
+
+        <span>COUNTRY</span> &nbsp;&nbsp;
+        <input type="text" value="India"><br><br>
+
+        <span>HOBBIES</span> &nbsp;&nbsp;
+
+        <span>Drawing</span><input type="checkbox">
+        <span>Singing</span><input type="checkbox">
+        <span>Dancing</span><input type="checkbox">
+        <span>Sketching</span><input type="checkbox"><br><br>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <span>Others</span><input type="checkbox">
+          <input type="text" size="30"><br><br>
+
+          <span>QUALIFICATION</span> &nbsp;&nbsp;<br><br>
+          
+
+
+          <table border="1">
+
+            
+            <tr>
+                <th><span>SI.NO. Examination</span></th>
+                <th>Board</th>
+                <th>Percentage</th>
+                <th>Year of Passing</th>
+            </tr>
+
+            <tr>
+                <td style="background-color: blueviolet;">1 Class X</td>
+                <td>&nbsp;&nbsp;</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td style="background-color: blueviolet;">2 Class XII</td>
+                <td>&nbsp;&nbsp;</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td style="background-color: blueviolet;">3 Graduation</td>
+                <td>&nbsp;&nbsp;</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td style="background-color: blueviolet;">4 Masters</td>
+                <td>&nbsp;&nbsp;</td>
+                <td></td>
+                <td></td>
+            </tr>
+
+
+
+          </table><br><br>
+
+          <span>COURSES</span><br>
+          <span>APPLIED FOR</span> &nbsp;&nbsp;
+          <span>BCA</span><input type="radio">
+          <span>B.Com</span><input type="radio">
+          <span>B.Sc</span><input type="radio">
+          <span>B.A</span><input type="radio"><br><br>
+
+          <button>Submit</button>
+          <button>Reset</button>
+
+
+
+
+
+
+    </fieldset>
+    
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Formulario #4</title>
+    <link rel="stylesheet" href="../CSS/Detalle4.css">
+</head>
+<body>
+
+    <Strong>Account Type:</Strong> &nbsp;&nbsp;
+    <input type="radio" name="Type" checked>Individual <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;
+    
+    <input type="radio" name="Type" >Entity <br><br>
+
+    <strong>First Name:</strong> &nbsp;&nbsp;
+    <input type="text" pattern="(Mr|Ms|Mrs)" size="30"><br><br>
+
+    <strong>Middle Name or Initial:</strong> &nbsp;&nbsp;
+    <input type="text" size="30"> <br><br>
+
+    <strong>Last Name:</strong> &nbsp;&nbsp;
+    <input type="text" size="30"> <br><br>
+
+    <strong>Suffix:</strong> &nbsp;&nbsp;
+    <datalist id="Lista"> 
+        <option value="Mr"></option>
+        <option value="Mrs"></option>
+        <option value="Ms"></option>
+        
+    </datalist>
+
+    <input type="text" list="Lista" placeholder="- -:" size="3"><br><br>
+
+    <strong>Taxpayer Identification Number:</strong> &nbsp;&nbsp;
+    <input type="number" size="5">
+    -
+    <input type="number" size="5">
+    -
+    <input type="number" size="5"><br><br>
+
+    <Strong>Date of Birth:</Strong> &nbsp;&nbsp;
+    
+    <input type="number" size="5">
+    -
+    <input type="number" size="5">
+    -
+    <input type="number" size="5">(MM-DD-YYYY)<br><br>
+
+    <strong>Street Address:</strong> &nbsp;&nbsp;
+    <input type="text" size="30"><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" size="30"><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" size="30"><br><br>
+
+    <Strong>City</Strong> &nbsp;&nbsp;
+    <input type="text" size="30"><br><br>
+
+    <strong>State:</strong>&nbsp;&nbsp;
+    <datalist id="Lista2"> 
+        <option value="Amazonas"></option>
+        <option value="Antioquia"></option>
+        <option value="Arauca"></option>
+        <option value="Atlántico"></option>
+        <option value="Bogotá"></option>
+        <option value="Bolívar"></option>
+        <option value="Boyacá"></option>
+        <option value="Caldas"></option>
+        <option value="Caquetá"></option>
+        <option value="Casanare"></option>
+        <option value="Cauca"></option>
+        <option value="Cesar"></option>
+        <option value="Chocó"></option>
+        <option value="Córdoba"></option>
+        <option value="Cundinamarca"></option>
+        <option value="Guainía"></option>
+        <option value="Guaviare"></option>
+        <option value="Huila"></option>
+        <option value="La Guajira"></option>
+        <option value="Magdalena"></option>
+        <option value="Meta"></option>
+        <option value="Nariño"></option>
+        <option value="Norte de Santander"></option>
+        <option value="Putumayo"></option>
+        <option value="Quindío"></option>
+        <option value="Risaralda"></option>
+        <option value="San Andrés y Providencia"></option>
+        <option value="Santander"></option>
+        <option value="Sucre"></option>
+        <option value="Tolima"></option>
+        <option value="Valle del Cauca"></option>
+        <option value="Vaupés"></option>
+        <option value="Vichada"></option>
+        
+    </datalist>
+
+    <input type="text" list="Lista2" placeholder="- -:" size="5"><br><br>
+
+    <Strong>Zip Code</Strong> &nbsp;&nbsp;
+    <input type="number" max="999999" size="5">
+    -
+    <input type="number" max="9999" size="5">(Plus Four - Optional)<br><br>
+
+    <Strong>Home Phone:</Strong> &nbsp;&nbsp;
+
+    (<input type="number" pattern="[+]" max="99" size="5">)
+    -
+    <input type="number" max="999" size="5">
+    -
+    <input type="number" max="9999999" size="5"><br><br>
+
+    <strong>Driver´s License/State ID Number:</strong> &nbsp;&nbsp;
+    <input type="number"  size="30"><br><br>
+
+    <strong>Issuing State</strong> &nbsp;&nbsp;
+    <input type="date"><br><br>
+
+    <strong>Expiration Date:</strong> &nbsp;&nbsp;
+
+    <input type="number" min="1" max="12" size="5">
+    -
+    <input type="number" min="1" max="31" size="5">
+    -
+    <input type="number" min="2000" size="5">(MM-DD-YYYY)<br><br>
+
+
+
+
+    
+</body>
+</html>
